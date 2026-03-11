@@ -32,10 +32,16 @@ const fortuneTeller = () => {
           {loading ? <Loader /> : answer}
         </span>
       </div>
-      <div className={styles.questionWrapper}>
-        <input className={styles.input} name='question' type='text' value={question} onChange={(e) => setQuestion(e.target.value)} />
-        <button className={styles.button} type='submit' onClick={generateAnswer}>Klausti</button>
-      </div>
+      <form
+        className={styles.formWrapper}
+        onSubmit={(e) => {
+          e.preventDefault(); // kad puslapis nespustelėtų
+          generateAnswer();
+        }}
+      >
+        <input className={styles.input} type='text' value={question} onChange={(e) => setQuestion(e.target.value)} />
+        <button className={styles.button} type='submit'>Klausti</button>
+      </form>
     </div>
   )
 }
