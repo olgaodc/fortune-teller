@@ -1,4 +1,3 @@
-import './App.css'
 import FortuneTeller from './components/fortuneTeller'
 
 function App() {
