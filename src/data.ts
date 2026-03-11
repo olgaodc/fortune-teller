@@ -1,0 +1,22 @@
+export const answers = [
+    "Žvaigždės rodo palankų laiką",
+    "Likimas dar slepia atsakymą",
+    "Ateitis šiuo klausimu miglota",
+    "Ženklai rodo – taip",
+    "Ženklai rodo – ne",
+    "Paklausk dar kartą vėliau",
+    "Tavo intuicija jau žino atsakymą",
+    "Mėnulio energija tau palanki",
+    "Šiandien geriau neskubėti",
+    "Likimas tau šypsosi",
+    "Visata pataria palaukti",
+    "Atsakymas ateis netikėtai",
+    "Kelias dar neatskleistas",
+    "Dabar nėra tinkamas metas žinoti",
+    "Visata sako: pasitikėk procesu",
+    "Atsakymas slypi tavo viduje",
+    "Fortūna tavo pusėje",
+    "Ateities ženklai prieštaringi",
+    "Visata rodo gerą baigtį",
+    "Atsakymas bus aiškus labai greitai"
+];
